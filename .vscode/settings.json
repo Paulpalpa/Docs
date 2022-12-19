@@ -3,6 +3,7 @@
         "cicd",
         "fastestmirror",
         "makecache",
+        "nginxcfg",
         "pluginconf"
     ]
 }
