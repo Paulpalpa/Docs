@@ -53,5 +53,3 @@ CMD：Dockerfile 执行写一个 CMD 否则后面的会被覆盖，CMD 后面的
 详细说明:CMD 指令用来在启动容器的时候，指定默认的容器主进程的启动命令和参数。
 它有两种形式
 ```
-
-现在打开 <a href="http://124.220.134.222/HelloReact">http://localhost:3000/HelloReact</a>，你就能看到刚刚创建的新页面了。
