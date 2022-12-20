@@ -54,4 +54,4 @@ CMD：Dockerfile 执行写一个 CMD 否则后面的会被覆盖，CMD 后面的
 它有两种形式
 ```
 
-现在打开 <a href="http://localhost:3000/HelloReact">http://localhost:3000/helloReact</a>，你就能看到刚刚创建的新页面了。
+现在打开 <a href="http://124.220.134.222/HelloReact">http://localhost:3000/helloReact</a>，你就能看到刚刚创建的新页面了。
