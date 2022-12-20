@@ -1,9 +1,11 @@
 {
     "cSpell.words": [
+        "Antv",
         "cicd",
         "fastestmirror",
         "makecache",
         "nginxcfg",
-        "pluginconf"
+        "pluginconf",
+        "WORKDIR"
     ]
 }
