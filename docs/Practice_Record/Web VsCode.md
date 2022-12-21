@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+---
+
 # Web VsCode安装与部署
 
 ## 1. 通过Code-Server安装VSCode
