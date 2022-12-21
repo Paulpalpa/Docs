@@ -2,7 +2,7 @@
 sidebar_position: 1
 ---
 
-# 部署 Docusaurus
+# 部署 Docusaurus网站
 
 ## 前言
 
