@@ -6,6 +6,7 @@
         "grayscale",
         "makecache",
         "nginxcfg",
+        "Paramshook",
         "pluginconf",
         "WORKDIR"
     ]
