@@ -4,10 +4,12 @@
         "cicd",
         "fastestmirror",
         "grayscale",
+        "maath",
         "makecache",
         "nginxcfg",
         "Paramshook",
         "pluginconf",
+        "pmndrs",
         "WORKDIR"
     ]
 }
