@@ -2,7 +2,7 @@
 sidebar_position: 4
 ---
 
-# Three 实践
+# Three.js 实践
 
 通过对 Three 基础概念的了解，来实现一个基础的 demo。[React Three Fiber](https://docs.pmnd.rs/react-three-fiber/getting-started/introduction)是最近很热门的库，提供了 React 中使用 Three.js 的能力，并且提供了丰富的 hook 支持，使得我们能快速建立 Three.js 场景。
 
