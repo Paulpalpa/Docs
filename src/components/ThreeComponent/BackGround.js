@@ -33,7 +33,9 @@ function Scene() {
   const rig = useRef()
 
   useFrame((state) => {
-    const { x, y } = state.pointer
+    if (!rig.current) return
+    const x = state.mouse ? state.mouse.x : 0
+    const y = state.mouse ? state.mouse.y : 0
     const t = state.clock.elapsedTime
     rig.current.rotation.y += (x * 0.28 - rig.current.rotation.y) * 0.04
     rig.current.rotation.x += (-y * 0.16 - rig.current.rotation.x) * 0.04
@@ -59,6 +61,7 @@ function StarField() {
   const nearPoints = useMemo(() => random.inSphere(new Float32Array(1400), { radius: 2.8 }), [])
 
   useFrame((_, delta) => {
+    if (!far.current || !near.current) return
     far.current.rotation.y -= delta * 0.035
     far.current.rotation.x -= delta * 0.012
     near.current.rotation.y += delta * 0.06
@@ -81,6 +84,7 @@ function Core() {
   const group = useRef()
 
   useFrame((_, delta) => {
+    if (!group.current) return
     group.current.rotation.y += delta * 0.28
     group.current.rotation.x += delta * 0.08
   })
@@ -111,6 +115,7 @@ function Rings() {
   const group = useRef()
 
   useFrame((_, delta) => {
+    if (!group.current) return
     group.current.rotation.z += delta * 0.12
     group.current.rotation.x += delta * 0.05
   })
