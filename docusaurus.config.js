@@ -57,9 +57,9 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: '首页',
+        title: '前端小站',
         logo: {
-          alt: 'My Site Logo',
+          alt: '前端小站',
           src: 'img/logo.svg',
         },
         items: [
@@ -81,46 +81,23 @@ const config = {
         style: 'dark',
         links: [
           {
-            title: 'Docs',
+            title: '笔记',
             items: [
-              {
-                label: '文档',
-                to: '/docs/intro',
-              },
+              {label: '前言', to: '/docs/intro'},
+              {label: 'AI Coding', to: '/docs/Base_Record/AI_Coding/overview'},
+              {label: '基础知识', to: '/docs/Base_Record/Git基础操作'},
+              {label: '一些实践', to: '/docs/Practice_Record/Vite'},
             ],
           },
           {
-            title: 'Community',
+            title: '站点',
             items: [
-              {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
-            ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
+              {label: '首页', to: '/'},
+              {label: '文档', to: '/docs/intro'},
             ],
           },
         ],
-        // copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: '前端记录小站',
       },
       prism: {
         theme: lightCodeTheme,
